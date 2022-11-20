@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    @media (min-width: $large-screen-width) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

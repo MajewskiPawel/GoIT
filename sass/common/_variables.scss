@@ -1,0 +1,26 @@
+$font-size-default: 16px;
+$color-white: #fff;
+$color-black: #000;
+$color-red: #f38181;
+$color-yellow: #fce38a;
+$color-green-light: #eaffd0;
+$color-green: #95e1d3;
+$color-grey: rgb(198, 198, 198);
+
+$font-size-small: 16px;
+$font-size-medium: 24px;
+$font-size-large: 31px;
+$font-size-v-large: 62px;
+
+$large-screen-width: 1200px;
+
+@media (min-width: $large-screen-width) {
+  $font-size-small: 16px;
+  $font-size-medium: 30px;
+  $font-size-large: 72px;
+  $font-size-v-large: 150px;
+}
+
+// CUSTOM
+$custom-nav-height: 180px;
+$custom-nav-desktop-height: 80px;

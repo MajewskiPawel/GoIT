@@ -1,0 +1,27 @@
+.main-header {
+  background-image: linear-gradient(to bottom,
+      rgba($color-red, 0.85),
+      rgba($color-yellow, 0.85)),
+    url("../../img/eagle.png");
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  color: $color-white;
+
+  &__container {
+    height: calc(100vh - #{$custom-nav-height});
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    text-align: center;
+  }
+
+  &__item {
+    &--center {
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.input-group {
+    display: flex;
+
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid $color-grey;
+        border-right: none;
+        box-sizing: border-box;
+        color: $color-grey;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            font-family: "Roboto", sans-serif;
+            font-style: italic;
+        }
+    }
+
+    button {
+        padding: 10px;
+        background-color: $color-green;
+        color: $color-white;
+        border: none;
+        cursor: pointer;
+    }
+}

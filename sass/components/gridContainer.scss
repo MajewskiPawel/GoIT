@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+
+    @media (min-width: $large-screen-width) {
+        grid-template-columns: auto auto auto;
+    }
+
+    &__item {
+        padding: 20px;
+
+        &--center {
+            text-align: center;
+        }
+    }
+}

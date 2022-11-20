@@ -1,0 +1,47 @@
+*:hover>*>svg .svg {
+  fill: $color-yellow;
+}
+
+.svg {
+  transition: all 0.2s ease;
+
+  &--white {
+    fill: $color-white;
+  }
+
+  &--green {
+    fill: $color-green;
+  }
+
+  &--red {
+    fill: $color-red;
+  }
+}
+
+.divider {
+  width: 140px;
+  border-bottom: 4px $color-red solid;
+  margin: 0 auto;
+}
+
+.divider--grey {
+  width: 100%;
+  border-bottom: 1px $color-grey solid;
+  margin: 0 auto;
+}
+
+.mt-6 {
+  margin-top: 30px;
+}
+
+.mb-6 {
+  margin-bottom: 30px;
+}
+
+.pl-15p {
+  padding-left: 15%;
+}
+
+.pr-15p {
+  padding-right: 15%;
+}
